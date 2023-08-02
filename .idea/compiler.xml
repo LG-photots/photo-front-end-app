@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="photo" />
+        <module name="photo-front-end-app" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="photo" options="-parameters" />
+      <module name="photo-front-end-app" options="-parameters" />
     </option>
   </component>
 </project>
